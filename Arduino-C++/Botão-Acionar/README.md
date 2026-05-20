@@ -32,4 +32,4 @@ Botao-Acionar
 - Quando o botão é pressionado, o LED acende.
 - Caso contrário, o LED permanece apagado.
 
-![alt text](Botao-acionar.png)
+<img width="1514" height="688" alt="Botao-acionar" src="https://github.com/user-attachments/assets/deda044b-b689-4007-9873-87df18632a27" />
