@@ -1,0 +1,21 @@
+# Ignorar executáveis compilados
+*.exe
+*.out
+*.o
+
+# Ignorar arquivos de build do Arduino
+*.ino.build
+*.ino.cpp
+*.ino.hex
+
+# Ignorar arquivos temporários
+*.log
+*.tmp
+
+# Ignorar arquivos do VS Code
+.vscode/
+*.code-workspace
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
