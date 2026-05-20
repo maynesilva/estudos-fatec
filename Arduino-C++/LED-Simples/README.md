@@ -28,3 +28,5 @@ LED-Simples/
 - O LED está conectado ao pino **13** do Arduino.  
 - O código configura esse pino como saída.  
 - O LED acende e apaga conforme a lógica definida no programa.
+
+<img width="1124" height="727" alt="LED-Simples" src="https://github.com/user-attachments/assets/a250fcad-e070-44bb-9ffa-e26650f30c62" />
