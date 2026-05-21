@@ -1,10 +1,10 @@
 # Projeto Botão de Acionar 🔘
 
-## 📖 Descrição
+## Descrição
 Este projeto acende um LED quando o botão é pressionado.  
 Foi desenvolvido em **Arduino** utilizando **C++** como linguagem de programação.
 
-## 🛠️ Componentes
+## Componentes
 - Arduino Uno
 - LED vermelho
 - Botão (push button)
@@ -12,21 +12,21 @@ Foi desenvolvido em **Arduino** utilizando **C++** como linguagem de programaç�
 - Protoboard
 - Jumpers
 
-## 🎯 Objetivo
+## Objetivo
 Aprender a:
 - Configurar pinos como entrada e saída (`pinMode`)
 - Ler o estado de um botão (`digitalRead`)
 - Controlar um LED (`digitalWrite`)
 - Usar lógica condicional para interação entre entrada e saída
 
-## 📂 Estrutura
+## Estrutura
 Botao-Acionar
 
   └──botao_acionar.ino   # Código do projeto
 
   └── README.md           # Documentação do projeto
 
-## 🚀 Funcionamento
+## Funcionamento
 - O botão está conectado ao pino **2** como entrada.
 - O LED está conectado ao pino **13** como saída.
 - Quando o botão é pressionado, o LED acende.
