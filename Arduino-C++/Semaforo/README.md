@@ -33,3 +33,5 @@ Semaforo/
 - Em seguida, o LED **vermelho** acende por 5 segundos.  
 - Depois, o LED **verde** acende por 5 segundos.  
 - O ciclo se repete continuamente, simulando um semáforo real.
+
+<img width="1513" height="672" alt="Semaforo" src="https://github.com/user-attachments/assets/9b9fc1b5-f62a-4cd9-8b49-090ce29c7aad" />
