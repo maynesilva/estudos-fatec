@@ -32,3 +32,6 @@ Potenciometro-Volume/
 - O LED está conectado a um pino PWM (ex: **9**) como saída.  
 - O valor lido do potenciômetro é convertido em intensidade de brilho do LED via `analogWrite`.  
 - Isso simula o ajuste de volume ou potência em um sistema real.
+
+<img width="1500" height="662" alt="potenciometro" src="https://github.com/user-attachments/assets/02580c0a-ee97-4cf6-8664-f1e53026d833" />
+
