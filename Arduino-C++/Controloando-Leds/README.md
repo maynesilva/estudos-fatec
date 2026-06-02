@@ -1,4 +1,4 @@
-# Projeto Potenciômetro Controlando LEDs 🎚️💡
+# Projeto Potenciômetro Controlando LEDs 
 
 ## Descrição
 Este projeto utiliza um **potenciômetro** para controlar a intensidade de saída do Arduino, acendendo LEDs de forma progressiva conforme o valor aumenta e apagando-os conforme diminui.  
@@ -7,7 +7,7 @@ Foi desenvolvido como exercício prático para aplicar os conceitos aprendidos d
 ## Componentes
 - Arduino Uno
 - Potenciômetro
-- 6 LEDs (vermelho, laranja, amarelo, verde, azul)
+- 5 LEDs (vermelho, laranja, amarelo, verde, azul)
 - Resistores
 - Protoboard
 - Jumpers
@@ -32,3 +32,4 @@ Aprender a:
 - Quando o valor diminui, os LEDs vão apagando na ordem inversa.  
 - Isso simula um controle de intensidade, como um **volume** ou **nível de potência**.
 
+<img width="1454" height="674" alt="Controlando leds" src="https://github.com/user-attachments/assets/8332834e-87c8-4578-b519-9b0d4bf6de00" />
