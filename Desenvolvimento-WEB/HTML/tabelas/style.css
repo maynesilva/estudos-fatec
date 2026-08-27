@@ -1,0 +1,21 @@
+body{
+    background-color: azure;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    color: #ff6347;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #6b2404;
+    font-size: 24px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    background-color: rgb(241, 233, 248);
+    color:#6b2404
+}

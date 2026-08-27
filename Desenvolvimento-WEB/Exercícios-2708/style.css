@@ -1,0 +1,84 @@
+body{
+    background-color: #eeeeee;
+}
+
+h1{
+    color: #913a01;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    color: #ad672e;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover{
+    color: red;
+}
+
+button{
+    background-color: #913a01;
+    color: #fcfcfc;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover{
+    background-color: #612701;
+}
+
+.caixa{
+    width: 300px;
+    background-color: #d49d68;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 32px;
+}
+
+.card{
+    width: 240px;
+    border: 1px solid gray;
+    padding: 15px;
+    margin: 10px;
+    background-color: #d49d68;
+    border-radius: 8px;
+}
+
+.card:hover{
+    background-color: #ad672e;
+}
+
+li{
+    color: #612701;
+    font-size: 18px;
+    margin: 8px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #d49d68;
+}
+
+th,td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+input{
+    width: 250px;
+    padding: 8px;
+}
+
+input:focus{
+    border: 2px solid #913a01;
+}
