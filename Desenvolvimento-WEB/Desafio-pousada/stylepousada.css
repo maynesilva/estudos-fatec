@@ -8,14 +8,14 @@ header{
     align-items: center;
 
     padding: 20px 40px;
-    background-color: white;
+    background-color: #ffffff;
     color: black;
     border-bottom: 2px solid #a86f04;
 }
 
 header img{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 nav ul{
@@ -39,13 +39,14 @@ nav a:hover{
     flex-direction: column;
     align-items: center;
     margin: 0;
-    border: 1px solid black;
+    padding: 36px 18px;
+    /* border: 1px solid black */
 }
 .container1{
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .caixa{
@@ -60,7 +61,7 @@ nav a:hover{
 }
 
 .caixa img{
-    width: 200px; 
-    height: 200px;
+    width: 300px; 
+    height: 300px;
     
 }
