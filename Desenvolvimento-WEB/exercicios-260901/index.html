@@ -104,25 +104,49 @@
         <div class="card">
             <div class="card1">
                 <img src="figurapessoa.webp" alt="Figura">
-                <h2>Julio Dantas</h2>
-                <p>Segurança da Informação</p>
-                <p>3º Semestre</p>
+                <div class="info">
+                    <h4>Julio Dantas</h4>
+                    <p>Segurança da Informação</p>
+                    <p>3º Semestre</p>
+                </div>
             </div>
 
             <div class="card1">
                 <img src="figurapessoa.webp" alt="Figura">
-                <h2>Leandra Dias</h2>
-                <p>Jogos Digitais</p>
-                <p>4º Semestre</p>
+                <div class="info">
+                    <h4>Leandra Dias</h4>
+                    <p>Jogos Digitais</p>
+                    <p>4º Semestre</p>
+                </div>
             </div>
 
             <div class="card1">
                 <img src="figurapessoa.webp" alt="Figura">
-                <h2>Bianca Magalhães</h2>
-                <p>Jogos Digitais</p>
-                <p>5° Semestre</p>
+                <div class="info">
+                    <h4>Bianca Magalhães</h4>
+                    <p>Jogos Digitais</p>
+                    <p>5° Semestre</p>
+                </div>
             </div>
         </div>
 
+        <h1>23.4 Caça ao erro</h1>
+        <h3>O aluno queria colocar as três caixas lado a lado, mas não conseguiu. Onde está o erro conceitual? Corriga o código e explique por que a alteração funciona.</h3>
+        <h4>Com o código do aluno:</h4>
+
+        <div class="container7">
+            <div class="caixa2">Caixa 1</div>
+            <div class="caixa2">Caixa 2</div>
+            <div class="caixa2">Caixa 3</div>
+        </div>
+
+        <p>No código dele não há o display flex no div pai (que no caso, é no container), há apenas nos ''filhos''. Aplicando no div pai, os filhos passam a ser itens flexíveis. </p>
+
+        <h4>Código modificado:</h4>
+        <div class="container8">
+            <div class="caixa">Caixa 1</div>
+            <div class="caixa">Caixa 2</div>
+            <div class="caixa">Caixa 3</div>
+        </div>
 </body>
 </html>

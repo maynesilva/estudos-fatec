@@ -2,6 +2,10 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+p{
+    font-size: smaller;
+}
+
 .container1{
     display: flex;
     gap: 15px;
@@ -115,22 +119,42 @@ header a:hover{
     padding: 20px;
     display: flex;
     align-items: center;
-    gap: 30px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.card1 img{
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50px;
-    align-items: center;
+    gap: 30px
 }
 
 .card1{
+    width: 400px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px
+}
+
+.card1 img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.info{
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
-    padding: 24px;
+}
+
+.container7 { 
+width: 800px; 
+} 
+
+.container8{
+    width: 800px;
+    display: flex;
+}
+
+.caixa2 { 
+display: flex; 
+width: 200px; 
+height: 100px; 
+border: 1px solid black; 
 }
