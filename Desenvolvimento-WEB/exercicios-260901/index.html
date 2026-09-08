@@ -108,6 +108,7 @@
                     <h4>Julio Dantas</h4>
                     <p>Segurança da Informação</p>
                     <p>3º Semestre</p>
+                    <button>Mais informações</button>
                 </div>
             </div>
 
@@ -117,6 +118,7 @@
                     <h4>Leandra Dias</h4>
                     <p>Jogos Digitais</p>
                     <p>4º Semestre</p>
+                    <button>Mais informações</button>
                 </div>
             </div>
 
@@ -126,9 +128,10 @@
                     <h4>Bianca Magalhães</h4>
                     <p>Jogos Digitais</p>
                     <p>5° Semestre</p>
+                    <button>Mais informações</button>
                 </div>
             </div>
-        </div>
+        </div> <hr>
 
         <h1>23.4 Caça ao erro</h1>
         <h3>O aluno queria colocar as três caixas lado a lado, mas não conseguiu. Onde está o erro conceitual? Corriga o código e explique por que a alteração funciona.</h3>
@@ -147,6 +150,32 @@
             <div class="caixa">Caixa 1</div>
             <div class="caixa">Caixa 2</div>
             <div class="caixa">Caixa 3</div>
-        </div>
+        </div> <hr>
+
+        <h1>23.6 - Questões conceituais</h1>
+        <h4>O que significa dizer que um elemento é o container pai no Flexbox? </h4>
+        <p>Significa que ele será o maior responsável pela formatação dos elementos dentro dele (os filhos), os elementos começam a seguir as regras estabelecidas pelo container pai</p>
+        <h4> Por que display: flex normalmente deve ser aplicado ao elemento que contém os itens que 
+desejamos organizar? </h4>
+        <p>Pois se a gente aplicasse diretamente nos elementos individuais, eles não saberiam como se portar em relação uns aos outros, eles precisam de um elemento em comum que coordene o espaço e a direção deles.</p>
+
+        <h4> Qual é a diferença entre eixo principal e eixo transversal? </h4>
+        <p>O eixo principal é a linha primária onde os itens são organizados, o transversal é o 'oposto' a ela. Se o eixo principal é row-horizontal, o transversal é column-vertical</p>
+
+        <h4>Por que não é completamente correto afirmar que justify-content sempre alinha horizontalmente? </h4>
+        <p>Porque ele alinha os itens no eixo principal. Se o eixo principal for column, ele não alinhará horizontalmente, mas sim verticalmente.</p>
+
+        <h4>Em que situação flex-direction: column pode ser mais adequado do que row?</h4>
+        <p>Quando é necessário um alinhamento vertical, exemplo: uma sidebar, em formulários e etc...</p>
+
+        <h4>Qual é a vantagem de gap em relação a criar margens individuais apenas para separar os itens?</h4>
+        <p>O gap adiciona espaçamento apenas entre os itens de forma automática, sem necessariamente precisar usar margin.</p>
+
+        <h4>Para que serve flex-wrap: wrap?</h4>
+        <p>Permite que os itens flexíveis quebrem o eixo principal seguinte casa não haja espaço suficiente no container pai. Garante que o layout se adapte responsivamente, ''empurrando'' os itens para baixo conforme a tela vai diminuindo</p>
+
+        <h4>Explique um exemplo de interface em que você usaria Flexbox dentro de outro Flexbox.</h4>
+        <p>Usaria na construção da header de um site, onde o flexbox externo coloque o nome/logo do site e a nav bar juntos<br>
+        O flexbox interno seria a navbar em si, com seus ítens de navegação</p>
 </body>
 </html>

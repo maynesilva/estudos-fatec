@@ -83,8 +83,7 @@ nav a{
 }
 
 nav a:hover{
-    background-color: #afafff;
-    border-radius: 50px;
+    color: #961414;
 }
 
 header{
@@ -138,6 +137,18 @@ header a:hover{
     border-radius: 50%;
 }
 
+button{
+    background-color: #550b0b;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 1px solid ;
+}
+
+button:hover{
+    background-color: #a21e1e;
+}
 .info{
     display: flex;
     flex-direction: column;
