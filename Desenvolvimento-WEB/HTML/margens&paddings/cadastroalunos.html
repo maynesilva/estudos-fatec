@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form>
+        <h1>Cadastro de Aluno</h1>
+
+        <div class="campo">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome">
+        </div>
+
+        <div class="campo">
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="email">
+        </div>
+
+        <div class="campo">
+            <label for="curso">Curso</label>
+            <select name="curso" id="curso">
+                <option>Ciência da Computação</option>
+                <option>Engenharia</option>
+                <option>Administração</option>
+            </select>
+        </div>
+
+        <div class="campo">
+            <label for="obs">Observações</label>
+            <textarea id="obs" name="obs" rows="5"></textarea>
+        </div>
+
+        <button type="submit">Cadastrar</button>
+        <br>
+        <div class="opcao">
+            <input type="checkbox" id="termos">
+            <label for="termos">Aceito os termos</label>
+        </div>
+    </form>
+
+
+
+</body>
+</html>
