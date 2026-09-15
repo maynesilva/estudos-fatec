@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios Box Model</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>27 - Exercícios de4 Prática</h1>
+    <p>1. Crie uma caixa de 300px com borda. Faça quatro versões variando apenas o padding e compare os resultados</p>
+
+    <div class="ex1">
+        <div class="caixa1">Caixa 1 - 15px de padding</div>
+        <div class="caixa2">Caixa 2 - 20px de padding</div>
+        <div class="caixa3">Caixa 3 - 25px de padding</div>
+        <div class="caixa4">Caixa 4 - 30px de padding</div>
+    </div>
+
+    <p>2. Crie duas caixas e use margin para criar 30px de distância entre elas. <br>
+        3. Use a forma abreviada de padding para colocar 10px em cima/baixo e 25px nas laterais.
+    </p>
+    <div class="ex2">
+        <div class="caixa5">Caixa 1</div>
+        <div class="caixa5">Caixa 1</div>
+    </div>
+
+    <p>4. Crie um cartão com width: 300px, padding: 20px, border: 5px e compare o tamanho visual com e sem box-sizing: border-box</p>
+
+    <div class="ex4">
+        <div class="cartao1">Cartão um: com border-box</div>
+        <div class="cartao2">Cartão dois: sem boder-box</div>
+    </div>
+
+    <p>5. Crie uma caixa com width: 90% e max-width: 600px e centralize-a com margin: 30px auto.</p>
+    <div class="caixa6">Caixa 6</div>
+
+    <p> Exercícios 6 - 11</p>
+
+    <form>
+        <div class="campo">
+            <label for="nome">Nome</label>
+            <input type="text id=nome" name="nome">
+        </div>
+        <div class="campo">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+        </div>
+        <div class="campo">
+            <label for="senha">Senha</label>
+            <input type="text" id="senha" name="senha">
+        </div>
+
+        <div class="campo">
+            <label for="curso">Curso</label>
+            <select name="curso" id="curso">
+                <option>Ciência da Computação</option>
+                <option>Engenharia</option>
+                <option>Veterinária</option>
+            </select>
+        </div>
+
+        
+        <div class="linha">
+            <div class="campo">
+                <label for="cidade">Cidade</label>
+                <input type="text" id="cidade" name="cidade">
+            </div>
+            <div class="campo">
+                <label for="estado">Estado</label>
+                <input type="text" id="estado" name="estado">
+            </div>
+        </div>
+        
+        <div class="campo">
+            <label for="obs">Observações</label>
+            <textarea id="obs" name="obs" rows="10"></textarea>
+        </div>
+
+        <div class="opcao">
+            <input type="checkbox" id="termos">
+            <label for="termos">Aceito os termos de privacidade</label>
+        </div>
+
+        <div class="botoes">
+                    <div class="enviar">
+            <button type="submit">Enviar</button>
+        </div>
+        
+        <div class="limpar">
+            <button type="submit">Limpar</button>
+        </div>
+
+        </div>
+
+
+    </form>
+</body>
+</html>

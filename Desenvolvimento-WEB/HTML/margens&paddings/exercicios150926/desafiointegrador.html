@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de inscrição</title>
+    <link rel="stylesheet" href="desafio.css">
+</head>
+<body>
+    <h3>Formulário de Inscrição</h3>
+    <p>Participe do maior evento tech da América Latina voltado para as mulheres!</p>
+
+    <form>
+        <div class="linha1">
+            <div class="campo">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome">
+            </div>
+
+            <div class="campo">
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email">
+            </div>
+        </div>
+
+        <div class="linha4">
+            <div class="campo">
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" name="telefone">
+            </div>
+
+            <div class="campo2">
+                <label for="curso">Curso</label>
+                <select name="curso" id="curso">
+                    <option>Escolha o curso</option>
+                    <option>Segurança da Informação</option>
+                    <option>Análise e Desenvolvimento de Sistemas</option>
+                    <option>Jogos Digitais</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="linha3">
+            <div class="campo2">
+                <label for="data">Selecione o dia</label>
+                <select name="data" id="data">
+                    <option>Escolha o(s) dia(s)</option>
+                    <option> Terça-feira - 22/09</option>
+                    <option> Quarta-feira - 23/09</option>
+                    <option> Quinta-feira - 24/09</option>
+                    <option> Todos os dias</option>
+                </select>
+            </div>
+
+            <div class="campo2">
+                <label for="mod">Modalide</label>
+                <select name="mod" id="mod" >
+                    <option>Escolha a modalidade</option>
+                    <option> Online</option>
+                    <option> Presencial</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="linha2">
+            <div class="campobs">
+                <label for="obs">Observação</label>
+                <textarea id="obs" name="obs" rows="3"></textarea>
+            </div>
+        </div>
+
+        <div class="opcao">
+            <input type="checkbox" id="termos">
+            <label for="termos">Aceito os termos de privacidade</label>
+        </div>
+
+        <div class="botoes">
+                    <div class="enviar">
+            <button type="submit">Enviar</button>
+        </div>
+        
+        <div class="limpar">
+            <button type="submit">Limpar</button>
+        </div>
+
+        </div>
+
+    </form>
+</body>
+</html>
