@@ -95,5 +95,48 @@
 
 
     </form>
+    <h1>27.1 - Questões Conceituais</h1>
+
+    <h4>13. Explique com suas palavras a diferença entre margin e padding.</h4>
+    <p>A margem controla a distância dos objetos no espaço externo. O padding controla no espaço interno</p>
+    <br>
+    <h4>14. Por que box-sizing: border-box facilita a criação de formulários?</h4>
+    <p>Ele faz com que a largura total inclua o conteúdo, o padding e a border. Isso ajuda a impedir que campos com width:100% ultrapassem a largura do formulário quando recebem esses atributos.</p>
+    <br>
+    <h4>15. Por que margin: auto pode centralizar uma caixa horizontalmente?</h4>
+    <p>Quando uma caixa tem uma largura definida, o auto nas margens faz com que o navegador divida o espaço horizontal restante de maneira igual entre os lados esquerdos e direitos</p>
+    <br>
+    <h4>16. Qual a vantagem de agrupar label e input em uma div com classe campo?</h4>
+    <p>Facilita na aplicação de espaçamentos e permite separar os grupos sem precisar controlar a margem de cada input individualmente</p>
+    <br>
+    <h4>17. Por que gap pode ser melhor que margin-right ao separar botões?</h4>
+    <p>Ele é melhor para espaçar os itens porque um container Flexbox passa a gerenciar a diantica entre todos os filhos simultaneamente, não precisando aplicar margin-right manualmente em cada botão</p>
+    <br>
+    <h4>18. Qual é o objetivo de :focus em um formulário?</h4>
+    <p>Ajuda no retorno visual de onde você está clicando e digitando naquela sessão, é também questão de acessbilidade</p>
+    <br>
+    <h4>19. Por que um checkbox normalmente não deve receber width: 100%?</h4>
+    <p>Pois é um controle pequeno e precisa de comportamento distintos, normalmente ele recebe um width:auto, não precisando se expandir para preencher todo o container</p>
+    <br>
+    <h4>20. Em que situação max-width é melhor que definir apenas width em pixels? </h4>
+    <p>Ele é melhor para layouts flexíveis sem que as caixas fiquem excessivamente largas. Ele permite que um elemento ocupe uma % da tela em dispositivos menores, mas estipula um limite máximo para que o layout não quebre ou dificulte a leitura em telas grandes</p>
+    <br>
+
+    <h1>27.2 - Caça ao erro</h1>
+    <p>* { 
+    box-sizing: content-box; 
+    } <br>
+    form { 
+    width: 500px; 
+    padding: 40px; 
+    } <br>
+    input { 
+    width: 100%; 
+    padding: 20px;
+    }<br></p>
+
+    <p>Para corrigir o problema, ao invés de content-box, usamos o border-box pois assim a largura definida passa a incluir o padding, fazendo com que o input respeite o limite do espaço sem transbordar</p>
+
+
 </body>
 </html>
